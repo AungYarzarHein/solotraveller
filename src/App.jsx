@@ -7,9 +7,10 @@ import Posts from './pages/Posts';
 
 
 const App = () => {
+  const helmetContext = {};
   return (
     <div className="App">
-       <HelmetProvider>
+       <HelmetProvider context={helmetContext} >
       <BrowserRouter>
        <Routes>
         <Route index element={<Home />}  />
