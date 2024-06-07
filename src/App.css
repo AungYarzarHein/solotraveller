@@ -8,20 +8,27 @@ body {
 
 
 .App {
-  background-color: gold;
+  background: linear-gradient(180deg,rgb(247, 243, 243),rgb(216, 224, 216));
   padding: 0;
   margin: 0;
 }
 
 
 .container {
-  /* display: flex; */
+  display: flex;
   width: 100%;
   min-height: 100vh;
   padding: 0;
   margin: 0;
   text-align: center;
   /* background-color: red; */
+}
+
+
+.flex-center {
+   justify-content: center;
+   /* align-items: center; */
+   padding-top: 3rem;
 }
 
 

@@ -21,7 +21,9 @@ const Posts = () => {
 
    if (loading){
     return(
+      <div className='container flex-center' >
       <FadeLoader />
+      </div>
     )
    }
 

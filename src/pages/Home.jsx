@@ -21,7 +21,9 @@ const Home = () => {
 
    if (loading){
     return(
-      <FadeLoader />
+      <div className='container flex-center' >
+        <FadeLoader />
+      </div>
     )
    }
 
